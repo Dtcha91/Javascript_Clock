@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body {
+  background-color: lightblue;
+}
+
+h1, h3 { 
+  text-align: center;
+}
+
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 15px auto;
+  display: block;
+}
+.clockSection{
+  display: none;
+}
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  color: #66ff99;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 15px 75px;
+  background-color: black;
+}
+.clockType{
+  background-image: url('../images/how-can-you-read-this-theres-no-pictures.jpg');
+  border: none;
+  width: 208px;
+  height: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+  margin: 15px auto;
+}
+.clockType.active, .clockType.focus{
+  background-image: url('../images/smart-ass.jpg');
+}
